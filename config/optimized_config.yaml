@@ -2,8 +2,12 @@ learning_rate:
   initial: 0.001
   scheduler: ReduceLROnPlateau
 batch_size: 32
-epochs: 50
+epochs: 5
 optimizer: Adam
+dropout: 0.3
+augmentations:
+  image: [Flip, Rotate]
+  imu: [Noise]
 loss_function: Sparse Categorical Crossentropy
 early_stopping:
   monitor: val_loss
