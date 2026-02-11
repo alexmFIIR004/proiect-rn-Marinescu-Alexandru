@@ -305,7 +305,7 @@ O acuratețe de 87.5% într-un mediu controlat indică un potențial ridicat pen
 ## 8. Structura Repository-ului Final
 
 ```
-proiect-rn-alex-florea/
+proiect-rn-Marinescu-Alexandru/
 │
 ├── README.md                               # Documentația principală (ACEST FIȘIER)
 │
